@@ -1,0 +1,13 @@
+python main.py \
+  --dataset ogbn-arxiv \
+  --dropout 0.5 \
+  --lr 0.1 \
+  --n-partitions 2 \
+  --n-epochs 3000 \
+  --model graphsage \
+  --n-layers 3 \
+  --n-hidden 256 \
+  --log-every 10 \
+  --inductive \
+  --enable-pipeline \
+  --use-pp
